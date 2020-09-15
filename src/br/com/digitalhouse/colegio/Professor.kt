@@ -1,6 +1,6 @@
 package br.com.digitalhouse.colegio
 
-class Professor(numeroDocente, nome, sobrenome): Pessoa(nome, sobrenome), Docente {
+class Professor(numeroDocente: String, nome: String, sobrenome: String): Pessoa(nome, sobrenome), Docente {
     override val registroDocente = numeroDocente
 
     override fun darAula() {
