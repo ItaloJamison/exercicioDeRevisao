@@ -1,4 +1,5 @@
 package br.com.digitalhouse.colegio
 
-class Materia {
+abstract class Materia() {
+    private nome: String
 }
